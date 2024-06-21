@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     navItems.forEach(item => {
       item.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent default anchor link behavior
+        event.preventDefault(); 
 
-        sections.forEach(section => section.style.display = 'none'); // Hide all sections
+        sections.forEach(section => section.style.display = 'none');
 
         const targetSection = document.querySelector(item.hash);
-        targetSection.style.display = 'block'; // Show the clicked section
+        targetSection.style.display = 'block'; 
 
         document.body.style.backgroundColor = getComputedStyle(targetSection).backgroundColor;
       });
