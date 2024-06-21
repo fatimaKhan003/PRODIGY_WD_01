@@ -20,8 +20,8 @@ This project demonstrates an interactive navigation menu that changes color or s
 1. **Download or clone the repository.**
 
     ```sh
-    git clone https://github.com/fatimaKhan003/interactive-navigation-menu.git
-    cd interactive-navigation-menu
+    git clone https://github.com/fatimaKhan003/PRODIGY_WD_01.git
+    cd PRODIGY_WD_01
     ```
 
 2. **Open the `task1.html` file in a web browser.**
